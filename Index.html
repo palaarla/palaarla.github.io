@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aryanandha E P | CSE Portfolio</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom font and base styles */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f7f9fb; /* Light background */
+            color: #1f2937; /* Dark text */
+        }
+    </style>
+    <!-- Tailwind Configuration for custom color and font -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'primary-blue': '#10b981', /* Emerald green for a fresh, professional look */
+                        'secondary-dark': '#1f2937',
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+</head>
+<body class="min-h-screen antialiased">
+
+    <!-- Header & Navigation -->
+    <header class="bg-white shadow-md sticky top-0 z-10">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-secondary-dark">Aryanandha E P</h1>
+            <nav class="space-x-4 hidden sm:block">
+                <a href="#about" class="text-secondary-dark hover:text-primary-blue transition duration-300">About</a>
+                <a href="#education" class="text-secondary-dark hover:text-primary-blue transition duration-300">Education</a>
+                <a href="#projects" class="text-secondary-dark hover:text-primary-blue transition duration-300">Projects</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content Container -->
+    <main class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-16">
+
+        <!-- 1. Hero Section -->
+        <section id="hero" class="text-center pt-10 pb-16 bg-white rounded-xl shadow-lg">
+            <div class="space-y-4">
+                <div class="w-32 h-32 mx-auto bg-gray-300 rounded-full flex items-center justify-center text-4xl text-white font-bold border-4 border-primary-blue">
+                    A
+                </div>
+                <h2 class="text-5xl font-extrabold text-secondary-dark leading-tight">
+                    Hello, I'm Aryanandha
+                </h2>
+                <p class="text-xl text-gray-600 font-medium">
+                    <span class="text-primary-blue">C.S.E. Student</span> | Aspiring Software Developer from Thrissur, Kerala.
+                </p>
+                <div class="pt-4">
+                    <a href="#contact" class="inline-block px-8 py-3 bg-primary-blue text-white font-semibold rounded-lg shadow-md hover:bg-opacity-90 transition duration-300 transform hover:scale-105">
+                        Get In Touch
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. About Me Section -->
+        <section id="about" class="bg-white p-8 sm:p-12 rounded-xl shadow-lg">
+            <h3 class="text-3xl font-bold text-primary-blue mb-6 border-b-2 border-primary-blue pb-2">About Me</h3>
+            <div class="text-lg space-y-4 text-gray-700">
+                <p>
+                    I am currently based in **Thrissur, Kerala**—the cultural capital of Kerala, known for its vibrant festivals and rich history. My passion lies in solving complex problems through code and building innovative software solutions.
+                </p>
+                <p>
+                    I am driven by curiosity and constantly seeking to expand my knowledge in emerging technologies, preparing myself for a dynamic career in the tech industry. I believe in the power of collaborative development and clean code practices.
+                </p>
+            </div>
+        </section>
+
+        <!-- 3. Education Section -->
+        <section id="education" class="bg-white p-8 sm:p-12 rounded-xl shadow-lg">
+            <h3 class="text-3xl font-bold text-primary-blue mb-6 border-b-2 border-primary-blue pb-2">Education</h3>
+            <div class="flex flex-col md:flex-row space-y-6 md:space-y-0 md:space-x-8">
+                <!-- VAST Detail Card -->
+                <div class="bg-gray-50 p-6 rounded-lg shadow-inner flex-1 border-l-4 border-primary-blue">
+                    <p class="text-xl font-semibold text-secondary-dark">B.Tech in Computer Science and Engineering</p>
+                    <p class="text-lg text-gray-600 mb-2">Vidya Academy of Science and Technology (VAST)</p>
+                    <p class="text-sm text-gray-500 italic">Current Student</p>
+                    <p class="mt-4 text-gray-700">
+                        At VAST, I am focused on core CSE concepts including Data Structures, Algorithms, Software Engineering, and Web Development. I am actively engaging in lab work and academic projects.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. Placeholder for Key Skills (Essential for a portfolio) -->
+        <section id="skills" class="bg-white p-8 sm:p-12 rounded-xl shadow-lg">
+            <h3 class="text-3xl font-bold text-primary-blue mb-6 border-b-2 border-primary-blue pb-2">Technical Skills</h3>
+            <div class="flex flex-wrap gap-3">
+                <!-- Example Skills - customize these! -->
+                <span class="bg-primary-blue/10 text-primary-blue font-medium px-4 py-2 rounded-full text-sm shadow-sm">Python</span>
+                <span class="bg-primary-blue/10 text-primary-blue font-medium px-4 py-2 rounded-full text-sm shadow-sm">C / C++</span>
+                <span class="bg-primary-blue/10 text-primary-blue font-medium px-4 py-2 rounded-full text-sm shadow-sm">Data Structures</span>
+                <span class="bg-primary-blue/10 text-primary-blue font-medium px-4 py-2 rounded-full text-sm shadow-sm">Web Development (HTML/CSS/JS)</span>
+                <span class="bg-primary-blue/10 text-primary-blue font-medium px-4 py-2 rounded-full text-sm shadow-sm">Git & GitHub</span>
+            </div>
+        </section>
+
+        <!-- 5. Placeholder for Projects (The most important part of a CSE portfolio) -->
+        <section id="projects" class="bg-white p-8 sm:p-12 rounded-xl shadow-lg">
+            <h3 class="text-3xl font-bold text-primary-blue mb-6 border-b-2 border-primary-blue pb-2">Key Projects</h3>
+            <div class="grid md:grid-cols-2 gap-6">
+                <!-- Project 1 Placeholder -->
+                <div class="border border-gray-200 p-6 rounded-lg hover:shadow-xl transition duration-300">
+                    <h4 class="text-xl font-semibold text-secondary-dark mb-2">Project Title 1: E-Commerce Backend</h4>
+                    <p class="text-gray-600 mb-3">A description of your major project, perhaps one from your VAST coursework or an extracurricular hackathon.</p>
+                    <a href="#" class="text-primary-blue hover:underline font-medium">View on GitHub &rarr;</a>
+                </div>
+                <!-- Project 2 Placeholder -->
+                <div class="border border-gray-200 p-6 rounded-lg hover:shadow-xl transition duration-300">
+                    <h4 class="text-xl font-semibold text-secondary-dark mb-2">Project Title 2: Mobile App UI/UX Design</h4>
+                    <p class="text-gray-600 mb-3">Details on a specific skill application, like a mobile app or data analysis tool you created.</p>
+                    <a href="#" class="text-primary-blue hover:underline font-medium">Read Case Study &rarr;</a>
+                </div>
+            </div>
+            <p class="mt-6 text-center text-gray-500 italic">
+                (Add more projects here—they are the best way to demonstrate your skills!)
+            </p>
+        </section>
+
+        <!-- 6. Contact Section (Linked from the Hero button) -->
+        <section id="contact" class="text-center pt-8 pb-10 bg-primary-blue text-white rounded-xl shadow-lg">
+            <h3 class="text-3xl font-bold mb-4">Let's Connect!</h3>
+            <p class="text-lg mb-6">I am open to discussing new projects, internships, or academic collaborations.</p>
+            <div class="space-y-2">
+                <!-- Replace with your actual links -->
+                <p>Email: <a href="mailto:your.email@example.com" class="underline hover:no-underline font-semibold">your.email@example.com</a></p>
+                <p>LinkedIn: <a href="#" class="underline hover:no-underline font-semibold">/in/yourprofile</a></p>
+                <p>GitHub: <a href="#" class="underline hover:no-underline font-semibold">/yourusername</a></p>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-secondary-dark text-white text-center py-6 mt-12">
+        <p>&copy; 2025 Aryanandha E P. All rights reserved.</p>
+        <p class="text-sm text-gray-400 mt-1">Built with HTML & Tailwind CSS.</p>
+    </footer>
+
+</body>
+</html>
